@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items   : flex-start;
     gap           : 1em;
-    height        : 80vh;
 }
 
 .projetos-wrap h6 {
@@ -18,10 +17,68 @@
     -webkit-text-fill-color: transparent;
 }
 
-.projetos-wrap p {
+.projetos-wrap .subtitle {
     margin     : .4em 2em;
     text-align : start;
     color      : #9EA0A3;
     font-size  : 20px;
     line-height: 1.4;
+}
+
+.cards-container {
+    display        : flex;
+    flex-wrap      : wrap;
+    gap            : 2em;
+    justify-content: center;
+}
+
+.card {
+    display                : flex;
+    flex-direction         : column;
+    align-items            : flex-start;
+    justify-content        : center;
+    gap                    : 1em;
+    background             : linear-gradient(217.85deg, #1eecff35 -1.54%, #0f9ca31a 101.14%);
+    border                 : 2px solid #1e897c97;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter        : blur(40px);
+    border-radius          : 16px;
+    box-shadow             : 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding                : 2em 1.6em;
+    width                  : 250px;
+    transition             : border 0.4s;
+}
+
+.card:hover {
+    /* transform: translateY(-5px); */
+    border: 2px solid #1e897cfc;
+}
+
+.card h5 {
+    text-align: left;
+    font-size : 20px;
+    color     : white;
+}
+
+.card p {
+    font-size  : 14px;
+    color      : #b4b4b4;
+    text-align : left;
+    line-height: 1.6;
+}
+
+.card button {
+    background-color: #246e8e32;
+    color           : #e1e1e1;
+    border          : 2px solid #1e897cc1;
+    padding         : 0.5em 1em;
+    border-radius   : 5px;
+    cursor          : pointer;
+    transition      : background-color 0.2s;
+    transition      : .2s ease-in-out;
+}
+
+.card button:hover {
+    border: 2px solid #1e897cfc;
+    color : #e1e1e1b1;
 }
