@@ -1,0 +1,27 @@
+.projetos-wrap {
+    padding       : 2em 1em;
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : 1em;
+    height        : 80vh;
+}
+
+.projetos-wrap h6 {
+    text-transform         : uppercase;
+    font-weight            : bold;
+    font-size              : 22px;
+    padding-left           : 2em;
+    background             : #215D77;
+    background             : linear-gradient(to right, #246e8e 0%, #29A086 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projetos-wrap p {
+    margin     : .4em 2em;
+    text-align : start;
+    color      : #9EA0A3;
+    font-size  : 20px;
+    line-height: 1.4;
+}
