@@ -4,7 +4,15 @@ import LogoBellum from '../assets/logo-bellum.svg';
 
 function Hero() {
   return (
-    <>
+    <section
+      className="flex flex-col items-center h-screen"
+      style={{
+        backgroundImage: `
+          radial-gradient(circle at top, #000 35%, #1e897c33 45%, #030917 75%)
+        `
+      }}
+    >
+  
         <section  id="hero-section" className='hero-wrap'>
             <img src={LogoBellum} alt='Logo Bellum Galaxy' />
             <span>Explore o universo da Web3</span>
@@ -14,10 +22,8 @@ function Hero() {
                 Seja um desbravador
             </button>
         </section>
-        <div>
-            
-        </div>
-    </>
+    </section>
+    
   )
 }
 

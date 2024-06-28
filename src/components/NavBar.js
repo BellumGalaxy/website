@@ -42,7 +42,7 @@ function NavBar() {
           </a>
         </li>
         <li onClick={removeActive}>
-          <a href="https://www.bellumgalaxy-trident.netlify.app" className="navLink">
+          <a href="https://" className="navLink">
             <button className="btn-connect">Conecte</button>
           </a>
         </li>

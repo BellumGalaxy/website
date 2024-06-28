@@ -31,6 +31,7 @@
     background-color: #246e8e;
     align-self      : center;
     border-radius   : 10px;
+    margin          : 1em 0;
 }
 
 .sobre-wrap .sobre-detalhes p {
@@ -38,7 +39,7 @@
     flex-direction : row;
     align-items    : center;
     justify-content: flex-start;
-    gap            : .2em;
+    gap            : .6em;
     margin-bottom  : 1em;
 }
 

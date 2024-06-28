@@ -57,9 +57,9 @@ a:hover {
     gap            : 60px;
 }
 
-.btn-launch {
+.btn-connect {
     width             : 120px;
-    background-color  : #194659;
+    background        : linear-gradient(225deg, #29a086d8 8.12%, #215D77 92.21%);
     color             : white;
     padding           : .8em 1em;
     font-size         : .9em;
@@ -70,10 +70,11 @@ a:hover {
     -webkit-box-shadow: 4px 4px 48px -10px rgba(0, 0, 0, 0.85);
     -moz-box-shadow   : 4px 4px 48px -10px rgba(0, 0, 0, 0.85);
     box-shadow        : 4px 4px 48px -10px rgba(0, 0, 0, 0.85);
+    transition        : .1s;
 }
 
-.btn-launch:hover {
-    background-color: #004057;
+.btn-connect:hover {
+    background: linear-gradient(200deg, #29a0868e 20%, #215d77ba 70%);
 }
 
 /* media queries */

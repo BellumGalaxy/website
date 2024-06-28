@@ -13,7 +13,7 @@ function Projetos() {
   return (
     <section id='projetos' className='projetos-wrap'>
       <h6>Projetos</h6>
-      <p className='subtitle'>Descubra nossas iniciativas inovadoras e colaborativas.</p>
+      <p className='subtitle'>Descubra nossas iniciativas inovadoras</p>
     
       <div className='cards-container'>
         {projects.map((project, index) => (
