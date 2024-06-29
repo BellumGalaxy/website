@@ -27,7 +27,7 @@ a:hover {
 
 /* navbar */
 .navbar {
-    background-color: transparent;
+    background-color: #000;
     padding         : 10px 20px;
     display         : flex;
     justify-content : space-between;
@@ -123,7 +123,7 @@ a:hover {
         text-align      : start;
         width           : 100%;
         transition      : 0.3s ease-in-out;
-        background-color: #030917d0;
+        background-color: #000000d1;
         padding         : 10px;
     }
 

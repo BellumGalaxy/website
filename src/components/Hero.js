@@ -8,7 +8,7 @@ function Hero() {
       className="flex flex-col items-center h-screen"
       style={{
         backgroundImage: `
-          radial-gradient(circle at top, #000 35%, #1e897c33 45%, #030917 75%)
+          radial-gradient(circle at top, #000 35%, #1e897c33 55%, #030917 75%)
         `
       }}
     >

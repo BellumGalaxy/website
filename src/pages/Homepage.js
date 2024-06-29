@@ -6,6 +6,7 @@ import Sobre from '../components/Sobre'
 import Projetos from '../components/Projetos'
 import Atividades from '../components/Atividades'
 import Divisor from '../components/Divisor'
+import Extra from '../components/Extra'
 
 function Homepage() {
   return (
@@ -17,6 +18,7 @@ function Homepage() {
         <Divisor />
         <Atividades />
         <Divisor />
+        <Extra />
     </>
   )
 }

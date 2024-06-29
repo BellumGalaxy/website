@@ -44,7 +44,6 @@
 }
 
 .sobre-wrap .sobre-detalhes p img {
-    width  : 20px;
-    filter : invert(33%) sepia(38%) saturate(1141%) hue-rotate(155deg) brightness(95%) contrast(77%);
-    opacity: 0.8;
+    width : 20px;
+    filter: invert(33%) sepia(38%) saturate(1141%) hue-rotate(140deg) brightness(100%) contrast(77%);
 }

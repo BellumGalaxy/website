@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Sobre.css';
-import Shuttle from '../assets/shuttle-space-solid.svg';
+import PlanetIcon from '../assets/planet-icon.svg';
 
 function Sobre() {
   return (
@@ -13,10 +13,10 @@ function Sobre() {
                 Permita-nos ajudá-lo a alcançar seu verdadeiro potencial transformando aspirações em realizações estelares.
             </p>
             <div className='sobre-detalhes'>
-                <p><img src={Shuttle} alt='shuttle' />Participe das Atividades</p>
-                <p><img src={Shuttle} alt='shuttle' />Compartilhe Experiências</p>
-                <p><img src={Shuttle} alt='shuttle' />Crie Projetos Próprios</p>
-                <p><img src={Shuttle} alt='shuttle' />Ajude-nos a ajudar o próximo!</p>
+                <p><img src={PlanetIcon} alt='planet icon' />Participe das Atividades</p>
+                <p><img src={PlanetIcon} alt='planet icon' />Compartilhe Experiências</p>
+                <p><img src={PlanetIcon} alt='planet icon' />Crie Projetos Próprios</p>
+                <p><img src={PlanetIcon} alt='planet icon' />Ajude-nos a ajudar o próximo!</p>
             </div>
             <div className='division-bar'></div>
         </section>

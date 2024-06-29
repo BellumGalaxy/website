@@ -18,7 +18,7 @@ function NavBar() {
     <nav className="navbar">
       {/* logo */}
       <a href="#home" className="logo-wrap">
-      <img className="logo" src={LogoBellum} alt="Bellum Galaxy Logo" />
+      
       </a>
       <ul className={`navMenu ${isActive ? "active" : ""}`}>
         <li onClick={removeActive}>
