@@ -9,7 +9,7 @@ import xLogo from '../assets/x-twitter-icon.svg';
 
 function Bellum() {
   return (
-    <div className='bellum-wrap'>
+    <div id='bellum' className='bellum-wrap'>
         <img className='bellum-logo' src={BellumLogo} alt='Bellum Logo' />
         <h4>Bellum Galaxy</h4>
         <p>We are an educational, scientific and technological community, focused on breaking barriers and demystifying technology.

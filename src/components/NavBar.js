@@ -36,7 +36,7 @@ function NavBar() {
           </a>
         </li>
         <li onClick={removeActive}>
-          <a href="#contato" className="navLink">
+          <a href="#bellum" className="navLink">
             Contato
           </a>
         </li>
