@@ -7,6 +7,8 @@ import Projetos from '../components/Projetos'
 import Atividades from '../components/Atividades'
 import Divisor from '../components/Divisor'
 import Extra from '../components/Extra'
+import Bellum from '../components/Bellum'
+import Footer from '../components/Footer'
 
 function Homepage() {
   return (
@@ -19,6 +21,8 @@ function Homepage() {
         <Atividades />
         <Divisor />
         <Extra />
+        <Bellum />
+        <Footer />
     </>
   )
 }

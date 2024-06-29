@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "../styles/NavBar.css";
-import LogoBellum from '../assets/logo-bellum.svg';
 
 function NavBar() {
   // adding the states
