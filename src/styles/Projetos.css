@@ -84,3 +84,33 @@
     border: 2px solid #1e897cfc;
     color : #e1e1e1b1;
 }
+
+@media (min-width: 1024px) {
+    .projetos-wrap {
+        padding    : 4em 4em;
+        align-items: flex-start;
+        gap        : 2em;
+    }
+
+    .projetos-wrap h6 {
+        font-size: 38px;
+    }
+
+    .projetos-wrap .subtitle {
+        font-size  : 48px;
+        line-height: 58px;
+    }
+
+    .card h5 {
+        font-size: 24px;
+    }
+
+    .card p {
+        font-size  : 16px;
+        line-height: 26px;
+    }
+
+    .card button {
+        padding: 0.75em 1.5em;
+    }
+}
