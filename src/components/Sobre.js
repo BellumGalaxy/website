@@ -8,7 +8,7 @@ function Sobre() {
         <section id='sobre' className='sobre-wrap'>
             <h6>Sobre a Bellum</h6>
             <p>
-                Na Bellum Galaxy, unimos as estrelas da ciência e da tecnologia para forjar o futuro.
+                Na <span>Bellum Galaxy</span>, unimos as estrelas da ciência e da tecnologia para forjar o futuro.
                 <br /><br />
                 Permita-nos ajudá-lo a alcançar seu verdadeiro potencial transformando aspirações em realizações estelares.
             </p>

@@ -28,8 +28,7 @@
     flex-direction : column;
     align-items    : flex-start;
     justify-content: flex-start;
-    align-self     : flex-start;
-    margin-left    : 2em;
+    align-self     : center;
     list-style     : none;
     text-align     : left;
     gap            : 1em;
@@ -68,4 +67,31 @@
     background-color: #29a0862f;
     border          : 2px solid #29a086;
     box-shadow      : 0px 8px 48px #29a086bb;
+}
+
+@media (min-width: 1024px) {
+    .extra-wrap {
+        margin     : 4em auto;
+        align-items: center;
+        gap        : 2em;
+    }
+
+    .extra-wrap h2 {
+        font-size: 48px;
+    }
+
+    .extra-wrap .subtitle {
+        font-size: 28px;
+    }
+
+    .extra-wrap ul {
+        flex-direction: row;
+        align-self    : center;
+        gap           : 2em;
+    }
+
+    .extra-wrap ul li {
+        font-size: 18px;
+    }
+
 }

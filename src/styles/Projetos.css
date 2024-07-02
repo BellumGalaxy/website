@@ -87,13 +87,13 @@
 
 @media (min-width: 1024px) {
     .projetos-wrap {
-        padding    : 4em 4em;
-        align-items: flex-start;
-        gap        : 2em;
+        padding: 4em 4em;
+        gap    : 1em;
     }
 
     .projetos-wrap h6 {
-        font-size: 38px;
+        font-size  : 22px;
+        margin-left: 2.2em;
     }
 
     .projetos-wrap .subtitle {

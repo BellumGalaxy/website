@@ -83,3 +83,35 @@
 .atividade-card .characteristics li svg {
     color: #29A086;
 }
+
+
+@media (min-width: 1024px) {
+    .atividades-wrap {
+        padding    : 4em 4em;
+        align-items: flex-start;
+        gap        : 1em;
+    }
+
+    .atividades-wrap h6 {
+        font-size  : 22px;
+        margin-left: 2.2em;
+    }
+
+    .atividades-wrap .subtitle {
+        font-size  : 48px;
+        line-height: 58px;
+    }
+
+    .atividades-cards h5 {
+        font-size: 24px;
+    }
+
+    .atividades-cards p {
+        font-size  : 16px;
+        line-height: 26px;
+    }
+
+    .atividade-card .characteristics li {
+        font-size: 18px;
+    }
+}
