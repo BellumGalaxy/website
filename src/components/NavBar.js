@@ -41,7 +41,7 @@ function NavBar() {
           </a>
         </li>
         <li onClick={removeActive}>
-          <a href="https://" className="navLink">
+          <a href='https://discord.com/invite/H2UpdzbbRJ' className="navLink">
             <button className="btn-connect">Conecte</button>
           </a>
         </li>

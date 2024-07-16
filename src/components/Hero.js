@@ -18,9 +18,9 @@ function Hero() {
             <span>Explore o universo da Web3</span>
             <h1>Bellum Galaxy</h1>
             <p>Junte-se a nós e embarque em uma busca incansável pelo conhecimento!</p>
-            <button>
+            <a href='https://discord.com/invite/H2UpdzbbRJ'>
                 Seja um desbravador
-            </button>
+            </a>
         </section>
     </section>
     
